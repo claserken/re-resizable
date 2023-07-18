@@ -937,7 +937,7 @@ export class Resizable extends React.PureComponent<ResizableProps, State> {
       minWidth: this.props.minWidth,
       minHeight: this.props.minHeight,
       boxSizing: 'border-box',
-      flexShrink: 0,
+      // flexShrink: 0,
     };
 
     if (this.state.flexBasis) {
